@@ -22,11 +22,11 @@ void main() {
     // Kategorisasi
     String kategori;
     if (bmi < 18.5) {
-      kategori = "Kurus";
+      kategori = "Kurus kering";
     } else if (bmi >= 18.5 && bmi < 24.9) {
-      kategori = "Normal";
+      kategori = "Ukuran Normal ";
     } else if (bmi >= 25 && bmi < 29.9) {
-      kategori = "Gemuk";
+      kategori = "Gemuk biasa";
     } else {
       kategori = "Obesitas";
     }
