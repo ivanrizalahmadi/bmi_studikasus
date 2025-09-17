@@ -32,13 +32,13 @@ void main() {
     }
 
     // Simpan ke riwayat
-    String hasil = "Tinggi: $tinggi cm, Berat: $berat kg, BMI: ${bmi.toStringAsFixed(2)}, Kategori: $kategori";
+    String hasil = "Tinggi Anda: $tinggi cm, Berat Anda: $berat kg, BMI Untuk Anda: ${bmi.toStringAsFixed(2)}, Kategori: $kategori";
     history.add(hasil);
 
     print("Hasil: $hasil");
 
     // Tampilkan riwayat
-    print("\n--- Riwayat Perhitungan ---");
+    print("\n--- Riwayat Perhitungan Anda ---");
     for (var h in history) {
       print(h);
     }
