@@ -44,7 +44,7 @@ void main() {
     }
 
     // Tanya lanjut?
-    stdout.write("\nHitung lagi? (y/n): ");
+    stdout.write("\nHitung lagi? (ya/tidak): ");
     String? ulang = stdin.readLineSync();
     if (ulang?.toLowerCase() != 'y') {
       print("Terima kasih telah menggunakan kalkulator BMI!");
